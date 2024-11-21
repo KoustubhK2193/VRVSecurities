@@ -169,6 +169,7 @@ export default function Register() {
             onClick={handleVerify}
           >
             Verify
+          {console.log("Clicked!!!")}
           </Button>
 
           {verified && (

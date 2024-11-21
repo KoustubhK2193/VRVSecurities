@@ -1,4 +1,6 @@
-const BASE_URL = "http://localhost:5000/api/v1";
+// const BASE_URL = "http://localhost:5000/api/v1";
+const BASE_URL = "http://localhost:5173/api/v1";
+
 
 export const forgotPasswordAPI = `${BASE_URL}/auth/forgot-password`;
 export const resetPasswordAPI = `${BASE_URL}/auth/reset-password`;
